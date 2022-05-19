@@ -21,4 +21,9 @@ return [
         'action' => 'logout',
     ],
 
+    'tests/knowledge' => [
+        'controller' => 'tests',
+        'action' => 'knowledge',
+    ],
+
 ];

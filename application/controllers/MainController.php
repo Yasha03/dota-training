@@ -14,8 +14,7 @@ class MainController extends Controller
         if(!$_SESSION['logged_user']){
             $this->view->redirect("/account/login");
         }
-        echo "f";
-        echo $_SESSION['logged_user']->login;
+
         $this->view->render('Главная', $vars);
     }
 

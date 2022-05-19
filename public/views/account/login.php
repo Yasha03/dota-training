@@ -1,3 +1,4 @@
+<div class="bg-fon"></div>
 <div class="limiter">
     <div class="container-login100">
         <div class="wrap-login100">

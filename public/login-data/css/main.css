@@ -180,6 +180,7 @@ iframe {
   border-radius: 10px;
   overflow: hidden;
   padding: 77px 55px 33px 55px;
+  z-index: 50;
 
   box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
@@ -487,5 +488,14 @@ iframe {
   }
 }
 
+.bg-fon {
+  background-color:rgba(0,0,0,.4);
+  height:100%;
+  position:fixed;
+  width:100%;
+  top:0;
+  left:0;
+  z-index: 0;
+}
 
 

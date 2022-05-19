@@ -9,12 +9,44 @@
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 </head>
 
 <body>
-<? echo $content; ?>
+
+<link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" />
+<nav id="navigation">
+    <div class="profile-info">
+        <div class="profile-info-image">
+            <img src="/public/img/avatars/<? echo $_SESSION['logged_user']->avatar; ?>">
+        </div>
+        <div class="profile-details">
+            <span class="profile-details-login"><? echo $_SESSION['logged_user']->login; ?></span>
+        </div>
+    </div>
+    <ul>
+        <li><a href="/"><i class="ion-android-home"></i><span>Главная</span></a></li>
+        <li><a href="#"><i class=""></i><span>Разное</span></a></li>
+        <li class="dropdown" rel="2"><a href="#"><i class="ion-folder"></i><span>Тесты</span>
+                <ul class="dropdown-2">
+                    <li><a href="/tests/knowledge"><i class="ion-clipboard"></i><span>Тест на знание доты</span></a></li>
+                </ul>
+            </a></li>
+        <li><a href="/account/logout"><i class="ion-log-out"></i><span>Выход</span></a></li>
+    </ul>
+</nav>
+
+<div id="wrapper">
+    <div class="bg-fon"></div>
+    <section class="content">
+        <? echo $content; ?>
+    </section>
+</div>
 
 <script src="../../public/scripts/form.js"></script>
 
