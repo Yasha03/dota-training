@@ -21,9 +21,29 @@ return [
         'action' => 'logout',
     ],
 
-    'tests/knowledge' => [
-        'controller' => 'tests',
-        'action' => 'knowledge',
+    'admin/panel' => [
+        'controller' => 'admin',
+        'action' => 'panel',
     ],
+
+    'admin/test/create' => [
+        'controller' => 'admin',
+        'action' => 'createTest',
+    ],
+
+    'admin/question/create/{id:\d+}' => [
+        'controller' => 'admin',
+        'action' => 'createQuestion',
+    ],
+
+    'tests/solve/{id:\d+}/{next:\d+}' => [
+        'controller' => 'tests',
+        'action' => 'solve',
+    ],
+
+    'tests/list' => [
+        'controller' => 'tests',
+        'action' => 'list'
+    ]
 
 ];

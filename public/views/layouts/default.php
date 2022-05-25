@@ -31,12 +31,10 @@
     </div>
     <ul>
         <li><a href="/"><i class="ion-android-home"></i><span>Главная</span></a></li>
-        <li><a href="#"><i class=""></i><span>Разное</span></a></li>
-        <li class="dropdown" rel="2"><a href="#"><i class="ion-folder"></i><span>Тесты</span>
-                <ul class="dropdown-2">
-                    <li><a href="/tests/knowledge"><i class="ion-clipboard"></i><span>Тест на знание доты</span></a></li>
-                </ul>
-            </a></li>
+        <li><a href="/tests/list"><i class="ion-clipboard"></i><span>Тесты</span></a></li>
+        <? if($_SESSION['logged_user']->status == 'admin'){
+            echo '<li><a href="/admin/panel"><i class="ion-locked"></i><span>Админ-панель</span></a></li>';
+        } ?>
         <li><a href="/account/logout"><i class="ion-log-out"></i><span>Выход</span></a></li>
     </ul>
 </nav>
@@ -48,7 +46,8 @@
     </section>
 </div>
 
-<script src="../../public/scripts/form.js"></script>
+
+<script src="/public/scripts/form.js<? echo $this->loadForm; ?>"></script>
 
 </body>
 </html>

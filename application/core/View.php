@@ -8,6 +8,7 @@ class View
     public $route;
     public $path;
     public $layout = 'default';
+    public $loadForm;
 
     public function __construct($route)
     {

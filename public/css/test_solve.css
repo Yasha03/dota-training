@@ -1,0 +1,30 @@
+.ans_button {
+    border: 0;
+    border-radius: 10px;
+    background: #6477EB;
+    color: #fff;
+    padding: 10px 25px;
+    width: 70%;
+    font-size: 15pt;
+    display: block;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.red_but {
+    background: crimson;
+}
+
+.green_but {
+    background: #5EB97D;
+}
+
+.passive_but {
+    background: #B3B3B3;
+}
+
+.question_text{
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 40px;
+}

@@ -1,0 +1,45 @@
+.tests_list{
+    justify-content: start;
+    margin: 30px;
+}
+
+
+.test_div{
+    flex-basis: 25%;
+    max-width: 250px;
+    margin-left: 40px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+}
+
+.test_div:hover {
+
+}
+
+.test_image img{
+    width: 100%;
+}
+
+.test_info {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    justify-content: space-around;
+    align-items: center;
+    background: #3a0f0f;
+    opacity: 0.8;
+}
+
+a{
+    position: relative;
+    display: inline-block;
+    outline: none;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    text-shadow: 0 0 1px rgba(255,255,255,0.3);
+    transition-duration: 0.5s;
+}
+
+a:hover{
+    color: #db002b;
+}
