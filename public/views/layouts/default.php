@@ -32,17 +32,21 @@
     <ul>
         <li><a href="/"><i class="ion-android-home"></i><span>Главная</span></a></li>
         <li><a href="/tests/list"><i class="ion-clipboard"></i><span>Тесты</span></a></li>
+        <li><a href="/article/list"><i class="ion-ios-bookmarks"></i><span>Статьи</span></a></li>
         <? if($_SESSION['logged_user']->status == 'admin'){
             echo '<li><a href="/admin/panel"><i class="ion-locked"></i><span>Админ-панель</span></a></li>';
         } ?>
         <li><a href="/account/logout"><i class="ion-log-out"></i><span>Выход</span></a></li>
     </ul>
 </nav>
+<div class="bg-fon"></div>
 
 <div id="wrapper">
-    <div class="bg-fon"></div>
     <section class="content">
         <? echo $content; ?>
+    </section>
+    <section class="right-sidebar">
+        text
     </section>
 </div>
 

@@ -44,6 +44,21 @@ return [
     'tests/list' => [
         'controller' => 'tests',
         'action' => 'list'
+    ],
+
+    'article/new' => [
+        'controller' => 'article',
+        'action' => 'new'
+    ],
+
+    'article/list' => [
+        'controller' => 'article',
+        'action' => 'list'
+    ],
+
+    'article/view/{url:[a-z0-9~_\-\.]+}' => [
+        'controller' => 'article',
+        'action' => 'view'
     ]
 
 ];

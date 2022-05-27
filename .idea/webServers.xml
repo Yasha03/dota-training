@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="536ada7b-3697-4e76-8b81-322925694b94" name="dota-training.ru" url="http://dota-training.ru">
+        <fileTransfer rootFolder="/domains/dota-training.ru/public_html" host="185.74.252.14" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

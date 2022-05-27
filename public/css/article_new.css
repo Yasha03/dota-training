@@ -1,0 +1,55 @@
+#titlediv #title{
+    padding: 25px 8px;
+    font-size: 1.7em;
+    line-height: 100%;
+    height: 1.7em;
+    width: 100%;
+    outline: 0;
+    margin: 0 0 3px;
+    background-color: #fff;
+}
+
+#title-prompt-text{
+    color: #646970;
+    position: absolute;
+    font-size: 1.7em;
+    padding: 10px;
+    pointer-events: none;
+}
+
+#title-prompt-text label{
+    cursor: text;
+}
+
+.url{
+    color: #007bff;
+}
+
+.article-form-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.article-name-div{
+    margin-bottom: 15px;
+}
+
+.url-article-p{
+    margin-bottom: 20px;
+}
+
+.url-article-p input{
+    width: 300px;
+}
+
+.article-name-input{
+    border-radius: 12px;
+}
+
+.url-image-div{
+    margin-top: 20px;
+}
+
+.url-image-div input{
+    width: 300px;
+}

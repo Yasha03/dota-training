@@ -10,6 +10,9 @@
     <div class="new_test_div">
         <p><a href="/admin/test/create">Создать новый тест</a></p>
     </div>
+    <div class="new_article_div">
+        <p><a href="/article/new">Создать новую статью</a></p>
+    </div>
 </div>
 
 <script type="text/javascript">
