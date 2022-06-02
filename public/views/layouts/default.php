@@ -46,7 +46,10 @@
         <? echo $content; ?>
     </section>
     <section class="right-sidebar">
-        text
+        <div class="ads-div-1">
+            <p><h3 style="padding: 10px;">Реклама</h3></p>
+            <img src="/public/img/ads1.jpg">
+        </div>
     </section>
 </div>
 
